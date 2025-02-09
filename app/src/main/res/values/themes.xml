@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RajGiraseAbhinavTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/button_bg</item>
+    </style>
+
+    <style name="Theme.RajGiraseAbhinavTask" parent="Base.Theme.RajGiraseAbhinavTask" />
+
+    <style name="Text_styles">
+
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+    <style name="Title_Style">
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Raj Girase Abhinav Task</string>
+    <string name="my_name">Welcome To the Raj Girase Application</string>
+    <string name="member_count">Member Count:</string>
+    <string name="add_new">Add New</string>
+    <string name="member_name">Member Name : </string>
+    <string name="mobile_no">Mobile No. :</string>
+    <string name="member_role">Member Role :</string>
+    <string name="subscription_amt">Subscription Amt. :</string>
+    <string name="loan_amount">Loan amount</string>
+    <string name="deposit_amount">Deposit amount</string>
+    <string name="registration_details">Registration Details</string>
+    <string name="member_registration">Member Registration</string>
+    <string name="member_mobile_number">Member Mobile Number</string>
+    <string name="member_names">Member Name</string>
+    <string name="select_role">Select Role</string>
+    <string name="male">Male</string>
+    <string name="secretary">Secretary</string>
+    <string name="member">Member</string>
+    <string name="subscription_fee">Subscription Fee</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="date_of_birth">Date of Birth(DOB)</string>
+    <string name="date_of_joining">Date of Joining</string>
+    <string name="marital_status">Marital status</string>
+    <string name="married">Married</string>
+    <string name="unmarried">Unmarried</string>
+    <string name="date_of_marriage">Date of Marriage</string>
+    <string name="caste">Caste</string>
+    <string name="religion">Religion</string>
+    <string name="category">Category</string>
+    <string name="aadhar_no">Aadhar No.</string>
+    <string name="submit">Submit</string>
+    <string name="if_selected_unmarried_than_enter_na">If Selected Unmarried than enter NA</string>
+</resources>

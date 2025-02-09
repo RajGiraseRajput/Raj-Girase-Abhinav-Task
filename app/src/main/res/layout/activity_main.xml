@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.MainActivity"
+    android:padding="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:id="@+id/toolbarLl"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:id="@+id/backBtn"
+            android:src="@drawable/back_icon"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:id="@+id/toolbarTitleTv"
+            android:text="Title"
+            style="@style/Title_Style"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memberTv"
+        android:text="@string/member_count"
+        style="@style/Text_styles"
+        android:layout_below="@+id/toolbarLl"
+        android:layout_marginStart="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/memberCountTv"
+        android:layout_toEndOf="@+id/memberTv"
+        style="@style/Text_styles"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_below="@+id/toolbarLl"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/memberTv"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addMemberBtn"
+        app:icon="@drawable/member_icon"
+        android:text="@string/add_new"
+        android:backgroundTint="@color/button_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

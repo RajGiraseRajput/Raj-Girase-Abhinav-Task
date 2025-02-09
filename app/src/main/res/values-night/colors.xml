@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="card_view_bg">#CCF2FC</color>
+    <color name="button_bg">#22C0F1</color>
+    <color name="submit_btn_bg">#4A518B</color>
+</resources>
